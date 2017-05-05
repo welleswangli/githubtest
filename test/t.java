@@ -22,6 +22,7 @@ public class t {
     
   @Test
   public void f() {
+	  System.out.println("wangli test3");
 	  driver=new FirefoxDriver();
 	  driver.get("http://www.baidu.com");
   }
