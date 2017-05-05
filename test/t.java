@@ -22,9 +22,14 @@ public class t {
     
   @Test
   public void f() {
-	  System.out.println("wangli test8");
+	  System.out.println("wangli test9");
 	  //driver=new FirefoxDriver();
 	  //driver.get("http://www.baidu.com");
-	  thread.sleep(50000);
+	  try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
   }
 }
