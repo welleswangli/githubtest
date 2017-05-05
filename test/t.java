@@ -22,7 +22,7 @@ public class t {
     
   @Test
   public void f() {
-	  System.out.println("wangli test90");
+	  System.out.println("wangli test910");
 	  driver=new FirefoxDriver();
 	  driver.get("http://www.qq.com");
 	  try {
