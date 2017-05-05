@@ -25,5 +25,6 @@ public class t {
 	  System.out.println("wangli test3");
 	  driver=new FirefoxDriver();
 	  driver.get("http://www.baidu.com");
+	  thread.sleep(50000);
   }
 }
