@@ -8,7 +8,7 @@ import org.testng.TestNG;
 import org.testng.annotations.Test;
 
 public class t {
-	FirefoxDriver driver;
+	//FirefoxDriver driver;
 	
     public static void main( String[] args )
     {
@@ -22,9 +22,9 @@ public class t {
     
   @Test
   public void f() {
-	  System.out.println("wangli test3");
-	  driver=new FirefoxDriver();
-	  driver.get("http://www.baidu.com");
+	  System.out.println("wangli test8");
+	  //driver=new FirefoxDriver();
+	  //driver.get("http://www.baidu.com");
 	  thread.sleep(50000);
   }
 }
